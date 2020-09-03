@@ -1,0 +1,98 @@
+﻿<Page
+    x:Class="Layout_Challenge.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Layout_Challenge"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    
+        <StackPanel Width="500" HorizontalAlignment="Left">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="2*"/>
+                </Grid.ColumnDefinitions>
+            <TextBlock FontSize="24">Title 1</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" TextWrapping="Wrap">
+                Lorem ipsum dolor sit amet,consectetur adipiscing elit.Ut1
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Green" Width="100" Height="30"/>
+                <Rectangle Fill="Black" Width="100" Height="30"/>
+                <Rectangle Fill="Red" Width="100" Height="30"/>
+            </StackPanel>
+            <StackPanel Width="500" Margin="20,0,0,0" HorizontalAlignment="Center">
+                
+            </StackPanel>
+            
+               
+            
+        </Grid>
+
+
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock FontSize="24">Title 2</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" TextWrapping="Wrap">
+                Lorem ipsum dolor sit amet,consectetur adipiscing elit.Ut2
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Green" Width="100" Height="30"/>
+                <Rectangle Fill="Black" Width="100" Height="30"/>
+                <Rectangle Fill="Blue" Width="100" Height="30"/>
+            </StackPanel>
+            <StackPanel Width="500" Margin="20,0,0,0" HorizontalAlignment="Center">
+
+            </StackPanel>
+
+
+
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock FontSize="24">Title 3</TextBlock>
+            <TextBlock Grid.Row="1" Grid.Column="1" TextWrapping="Wrap">
+                Lorem ipsum dolor sit amet,consectetur adipiscing elit.Ut3
+            </TextBlock>
+            <StackPanel Orientation="Horizontal" Grid.Row="2" Grid.Column="1">
+                <Rectangle Fill="Green" Width="100" Height="30"/>
+                <Rectangle Fill="Black" Width="100" Height="30"/>
+                <Rectangle Fill="Yellow" Width="100" Height="30"/>
+            </StackPanel>
+            <StackPanel Width="500" Margin="20,0,0,0" HorizontalAlignment="Center">
+
+            </StackPanel>
+
+
+
+        </Grid>
+
+    </StackPanel>
+   
+    
+</Page>
+
