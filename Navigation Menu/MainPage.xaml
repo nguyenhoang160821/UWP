@@ -1,0 +1,42 @@
+﻿<Page
+    x:Class="Navigation_Menu.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Navigation_Menu"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <RelativePanel>
+            <Button/>
+        </RelativePanel>
+        <SplitView Grid.Row="1">
+            <ListBox>
+                <ListBoxItem/>
+                <ListBoxItem/>
+                <ListBoxItem/>
+            </ListBox>
+        </SplitView>
+        <RelativePanel>
+            <Button Name="HamburgerButton"
+                FontFamily="Segoe MDL2 Assets"
+                    Content="&#xE700;"
+                    FontSize="35"
+                   />
+        </RelativePanel>
+        <SplitView Name="MysplitView"
+                   Grid.Row="1"
+                   DisplayMode="CompactOverlay"
+                   OpenPaneLength="200"
+                   CompactPaneLength="56"
+                   HorizontalAlignment="Left">
+        </SplitView>
+        
+    </Grid>
+</Page>
